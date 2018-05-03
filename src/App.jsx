@@ -1,7 +1,4 @@
 import React from "react";
-import Home from "./components/Home";
-import Admin from "./components/Admin";
-//import Login from "./components/Login";
 import { BrowserRouter, Route, Switch, Link, Redirect, withRouter } from "react-router-dom";
 
 const fakeAuth = {
@@ -12,9 +9,7 @@ const fakeAuth = {
   },
   signout(cb) {
     this.isAuthenticated = false
-    setTimeout(cb, 100) => {
-      
-    },
+    setTimeout(cb, 100)
   }
 }
 
@@ -25,7 +20,7 @@ const privateRoute= ({ component: component, ...rest }) =>(
     fakeAuth.isAuthenticated === true
     ? <component {...props} />
     : <Redirect to ={{
-      pathname. '/Login',
+      pathname:'/Login',
       state: { from: props.location }
     }} />
   )} />
@@ -59,13 +54,15 @@ class Login extends React.Component {
   }
 }
 
-const AuthButton = withRouter(({ history })) => (
+const AuthButton = withRouter(({ history })) => {
   fakeAuth.isAuthenticated === true
   ? <p>
-  Welcome! <button onClick={() => ({})}>Sign Out</button>
+  Welcome! <button onClick={() => {
+    fakeAuth.signout(() => history.push('/'))
+  }}>Sign Out</button>
   </p>
   : <p>You are not logged in </p>
-)
+}
 
 
 

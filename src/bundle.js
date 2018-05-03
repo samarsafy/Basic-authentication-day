@@ -400,6 +400,17 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
+/***/ "./src/App.jsx":
+/*!*********************!*\
+  !*** ./src/App.jsx ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("throw new Error(\"Module build failed: SyntaxError: Unexpected token, expected ; (57:45)\\n\\n\\u001b[0m \\u001b[90m 55 | \\u001b[39m}\\n \\u001b[90m 56 | \\u001b[39m\\n\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m 57 | \\u001b[39m\\u001b[36mconst\\u001b[39m \\u001b[33mAuthButton\\u001b[39m \\u001b[33m=\\u001b[39m withRouter(({ history })) \\u001b[33m=>\\u001b[39m {\\n \\u001b[90m    | \\u001b[39m                                             \\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\n \\u001b[90m 58 | \\u001b[39m  fakeAuth\\u001b[33m.\\u001b[39misAuthenticated \\u001b[33m===\\u001b[39m \\u001b[36mtrue\\u001b[39m\\n \\u001b[90m 59 | \\u001b[39m  \\u001b[33m?\\u001b[39m \\u001b[33m<\\u001b[39m\\u001b[33mp\\u001b[39m\\u001b[33m>\\u001b[39m\\n \\u001b[90m 60 | \\u001b[39m  \\u001b[33mWelcome\\u001b[39m\\u001b[33m!\\u001b[39m \\u001b[33m<\\u001b[39m\\u001b[33mbutton\\u001b[39m onClick\\u001b[33m=\\u001b[39m{() \\u001b[33m=>\\u001b[39m {\\u001b[0m\\n\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvQXBwLmpzeC5qcyIsInNvdXJjZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/App.jsx\n");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -408,7 +419,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n__webpack_require__(/*! materialize-css/dist/css/materialize.min.css */ \"./node_modules/materialize-css/dist/css/materialize.min.css\");\n\n__webpack_require__(/*! materialize-css/dist/js/materialize.min.js */ \"./node_modules/materialize-css/dist/js/materialize.min.js\");\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _App = __webpack_require__(!(function webpackMissingModule() { var e = new Error(\"Cannot find module \\\"./src/App\\\"\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));\n\nvar _App2 = _interopRequireDefault(_App);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById(\"root\"));//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vc3JjL2luZGV4LmpzPzEyZDUiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFwibWF0ZXJpYWxpemUtY3NzL2Rpc3QvY3NzL21hdGVyaWFsaXplLm1pbi5jc3NcIjtcbmltcG9ydCBcIm1hdGVyaWFsaXplLWNzcy9kaXN0L2pzL21hdGVyaWFsaXplLm1pbi5qc1wiO1xuaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IFJlYWN0RE9NIGZyb20gXCJyZWFjdC1kb21cIjtcbmltcG9ydCBBcHAgZnJvbSBcIi4vc3JjL0FwcFwiO1xuXG5SZWFjdERPTS5yZW5kZXIoPEFwcCAvPiwgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJyb290XCIpKTtcbiJdLCJtYXBwaW5ncyI6Ijs7QUFBQTtBQUNBO0FBQUE7QUFDQTtBQUFBO0FBQ0E7OztBQUFBO0FBQ0E7OztBQUFBO0FBQ0E7Ozs7O0FBQ0EiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/index.js\n");
+eval("\n\n__webpack_require__(/*! materialize-css/dist/css/materialize.min.css */ \"./node_modules/materialize-css/dist/css/materialize.min.css\");\n\n__webpack_require__(/*! materialize-css/dist/js/materialize.min.js */ \"./node_modules/materialize-css/dist/js/materialize.min.js\");\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _App = __webpack_require__(/*! ./App.jsx */ \"./src/App.jsx\");\n\nvar _App2 = _interopRequireDefault(_App);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById(\"root\"));//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vc3JjL2luZGV4LmpzPzEyZDUiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFwibWF0ZXJpYWxpemUtY3NzL2Rpc3QvY3NzL21hdGVyaWFsaXplLm1pbi5jc3NcIjtcbmltcG9ydCBcIm1hdGVyaWFsaXplLWNzcy9kaXN0L2pzL21hdGVyaWFsaXplLm1pbi5qc1wiO1xuaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IFJlYWN0RE9NIGZyb20gXCJyZWFjdC1kb21cIjtcbmltcG9ydCBBcHAgZnJvbSBcIi4vQXBwLmpzeFwiO1xuXG5SZWFjdERPTS5yZW5kZXIoPEFwcCAvPiwgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJyb290XCIpKTtcbiJdLCJtYXBwaW5ncyI6Ijs7QUFBQTtBQUNBO0FBQUE7QUFDQTtBQUFBO0FBQ0E7OztBQUFBO0FBQ0E7OztBQUFBO0FBQ0E7Ozs7O0FBQ0EiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/index.js\n");
 
 /***/ })
 
