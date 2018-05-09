@@ -18,11 +18,11 @@
 
 #### the Basic-authentication-day App is being renderd in terminal through the command
 
-`npm run client`
+`npm run dev`
 
 #### the App had three components, Home.js, Admin.js and Login.js. i deleted them and rendered them in App.jsx through the Route. so the user get directed to admin page, when his id is true. or redirected to login again if his id is false
 
 ### i saw this video for the building of the app
 
 [the link to the video](https://www.youtube.com/watch?v=ojYbcon588A)
-![here is an image for the App](Basic-authentication-day/authenication-app.png)
+![here is an image for the App](Basic-authentication-day/authenication-app.png?raw=true)
