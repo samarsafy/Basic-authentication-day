@@ -15,10 +15,10 @@ $ create react app
 
 $npm install react react-dom
 
-####the Basic-authentication-day App is being runed in terminal through the command
+####the Basic-authentication-day App is being renderd in terminal through the command
 $ npm run client
 
-#### the App had three components, Home.js, Admin.js and Login.js. i deleted them and rendered them in App.jsx through the Route. so the user get directed to admin page, when is id is true. or redirected to login again if his id in false
+#### the App had three components, Home.js, Admin.js and Login.js. i deleted them and rendered them in App.jsx through the Route. so the user get directed to admin page, when his id is true. or redirected to login again if his id is false
 
-#i saw this video for the bulding of the app
+#i saw this video for the building of the app
 (https://www.youtube.com/watch?v=ojYbcon588A)
