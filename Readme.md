@@ -14,7 +14,7 @@
 
 #### so i cloned the package.json (version: 1.0.0), and webpack.config.js from another reprository. the files used here are for example cloned from my reprository "suberblog". i installed also react-dom in the terminal.
 
-<<<<<<< HEAD
+
 `npm install react react-dom`
 
 #### the Basic-authentication-day App is being renderd in terminal through the command
@@ -27,4 +27,4 @@
 
 [the link to the video](https://www.youtube.com/watch?v=ojYbcon588A)
 
-![here is an image for the App](Basic-authentication-day/authenication-app.png?raw=true)
+![here is an image for the App](https://github.com/samarsafy/Basic-authentication-day/blob/master/authenication-app.png?raw=true)
