@@ -15,6 +15,8 @@ const fakeAuth = {
 
 const Home = () => <h3>Home</h3>
 const Admin = () => <h3>Admin</h3>
+
+
 const privateRoute= ({ component: component, ...rest }) =>(
   <Route {...rest} render ={(props) => (
     fakeAuth.isAuthenticated === true
